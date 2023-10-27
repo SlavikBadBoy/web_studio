@@ -53,6 +53,7 @@ body {
   align-items: center;
   text-align: center;
   display: flex;
+  margin-bottom: 94px;
 }
 .main_home_container {
   justify-content: space-between;
@@ -112,6 +113,7 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   width: 270px;
+  margin-bottom: 10px;
 }
 .advantages-description {
   color: #757575;
@@ -127,4 +129,14 @@ body {
 .svg-advantages {
   width: 70px;
   height: 70px;
+}
+.img-container{
+  width: 270px;
+  height: 120px;
+  background-color:#F5F4FA;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }

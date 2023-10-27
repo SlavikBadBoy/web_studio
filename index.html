@@ -3,20 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>webstudio</title>
     <link rel="stylesheet" href="/src/styles/reset.css" />
     <link rel="stylesheet" href="/src/styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header class="header">
-     <div class="header-box"></div>
-     
       <nav class="header-nav">
         <div class="header-logo">
           <a href="#"><img src="/src/images/webstudio.png" alt="logo" /></a>
@@ -35,16 +33,78 @@
       </nav>
     </header>
     <main class="main">
-      <div class="main_home">
+      <section class="main_home">
         <div class="main_home_container">
           <div class="main_home_content">
-            <div class="home_main_text">
-              Ефективні рішення для вашого бізнесу
-            </div>
+            <h1 class="home_main_text">Ефективні рішення для вашого бізнесу</h1>
             <a href="" class="home_main_button">Замовити послугу</a>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="our-advantages">
+        <h2 class="advantages-title">Наші переваги</h2>
+        <ul class="cards-advantages">
+          <li class="card">
+            <div class="img-container">
+              <svg class="svg-advantages">
+                <use
+                  class="svg"
+                  href="/src/images/symbol-defs.svg#icon-antenna"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="card-title">Увага до деталей</h3>
+            <p class="advantages-description">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li class="card">
+            <div class="img-container">
+              <svg class="svg-advantages">
+                <use
+                  class="svg"
+                  href="/src/images/symbol-defs.svg#icon-clock"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="card-title">Пунктуальність</h3>
+            <p class="advantages-description">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li class="card">
+            <div class="img-container">
+              <svg class="svg-advantages">
+                <use
+                  class="svg"
+                  href="/src/images/symbol-defs.svg#icon-diagram"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="card-title">Планування</h3>
+            <p class="advantages-description">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li class="card">
+            <div class="img-container">
+              <svg class="svg-advantages">
+                <use
+                  class="svg"
+                  href="/src/images/symbol-defs.svg#icon-astronaut"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="card-title">Сучасні технології</h3>
+            <p class="advantages-description">
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>

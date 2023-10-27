@@ -129,6 +129,7 @@ body {
 .svg-advantages {
   width: 70px;
   height: 70px;
+  
 }
 .img-container{
   width: 270px;
@@ -139,4 +140,10 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+}
+.svg-advantages{
+  fill: #212121;
+}
+.svg-advantages:hover{
+  fill: #2196f3;
 }

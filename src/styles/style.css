@@ -47,7 +47,7 @@ body {
 .header_number-phone li:hover {
   color: #2196f3;
 }
-.main_home {
+.hero {
   background: #2f303a;
   height: 600px;
   align-items: center;
@@ -129,21 +129,86 @@ body {
 .svg-advantages {
   width: 70px;
   height: 70px;
-  
 }
-.img-container{
+.img-container {
   width: 270px;
   height: 120px;
-  background-color:#F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
-.svg-advantages{
+.svg-advantages {
   fill: #212121;
 }
-.svg-advantages:hover{
+.svg-advantages:hover {
   fill: #2196f3;
+}
+.section {
+  padding: 60px 0;
+  background-color: #fff;
+  min-width: 1200px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.activitites {
+  padding-bottom: 94px;
+  padding-top: 0px;
+  color: #fff;
+  max-width: 1200px;
+  margin-top: 118px;
+}
+.container-activities {
+  max-width: 450px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 94px;
+  padding-top: 0px;
+}
+.activities-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  min-width: 1200px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.14;
+}
+.work-list {
+  display: flex;
+  justify-content: space-between;
+}
+.work-item {
+  position: relative;
+}
+.work-img {
+  width: 370px;
+  height: 294px;
+}
+.work-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(47, 48, 58, 0.8);
 }

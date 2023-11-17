@@ -149,9 +149,6 @@ body {
 .section {
   padding: 60px 0;
   background-color: #fff;
-  min-width: 1200px;
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 .activitites {
   padding-bottom: 94px;
@@ -186,6 +183,7 @@ body {
 .work-list {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .work-item {
   position: relative;

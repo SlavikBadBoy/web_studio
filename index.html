@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>webstudio</title>
     <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/normalize.css" />
     <link rel="stylesheet" href="/src/styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,7 +36,7 @@
         <div class="main_home_container">
           <div class="main_home_content">
             <h1 class="home_main_text">Ефективні рішення для вашого бізнесу</h1>
-            <button class="home_main_button">Замовити послугу</button>
+            <button href="" class="home_main_button">Замовити послугу</button>
           </div>
         </div>
       </section>
@@ -102,40 +103,26 @@
           </li>
         </ul>
       </section>
-      <section class="activitites">
-        <div class="container">
-          <h2 class="activities-title">Чим ми займаємося</h2>
-          <ul class="work-list">
-            <li class="work-item">
-              <img
-                class="work-img"
-                src="src/images/desktop.jpg"
-                alt="work on laptop"
-              />
-              <p class="work-text">Десктопні додатки</p>
-            </li>
-            <li class="work-item">
-              <img
-                class="work-img"
-                src="src/images/mobile.jpg"
-                alt="phone with laptop"
-              />
-              <p class="work-text">Мобільні додатки</p>
-            </li>
-            <li class="work-item">
-              <img
-                class="work-img"
-                src="src/images/design.jpg"
-                alt="tablet in hands"
-              />
-              <p class="work-text">Дизайнерські рішення</p>
-            </li>
-          </ul>
-        </div>
+      <section class="what-we-do">
+        <h2 class="what-we-do-title">Чим ми займаємося</h2>
+        <ul class="what-we-do-list">
+          <li class="list">
+            <img src="/src/images/desktop.jpg" alt="what we do photo" />
+            <p class="title">Десктопні додатки</p>
+          </li>
+          <li class="list">
+            <img src="/src/images/mobile.jpg" alt="what we do photo" />
+            <p class="title">Мобільні додатки</p>
+          </li>
+          <li class="list">
+            <img src="/src/images/design.jpg" alt="what we do photo" />
+            <p class="title">Дизайнерські рішення</p>
+          </li>
+        </ul>
       </section>
       <section class="team">
         <div class="container">
-          <h3 class="our-team">Наша команда</h3>
+          <h2 class="our-team">Наша команда</h2>
           <div class="members">
             <div class="member">
               <img src="./src/images/member-1.jpg" alt="Ігор Дем'яненко" />
@@ -331,36 +318,11 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-box">
-          <div class="footer-info">
-            <a class="footer-logo" href="/index.html">
-              <img src="/src/images/webstudio.svg" alt="logo" />
-            </a>
-            <address class="address">
-              <ul class="list">
-                <li class="address-item">
-                  <a class="address-link-white" href=""
-                    >м. Київ, пр-т Лесі Українки, 26</a
-                  >
-                </li>
-                <li class="address-item">
-                  <a class="address-link-grey" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li class="address-item">
-                  <a class="address-link-grey" href="tel:++380961111111">
-                    +38 096 111 11 11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="follow">
-            <h2 class="footer-title"></h2>
-          </div>
-        </div>
+      <img class="footer-logo" src="/src/images/webstudioalt.svg" alt="logo" />
+      <div class="footer-wrapper">
+        <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+        <a class="tel" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="mail" href="tel:380961111111">+38 096 111 11 11</a>
       </div>
     </footer>
   </body>

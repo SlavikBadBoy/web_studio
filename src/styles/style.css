@@ -1,13 +1,20 @@
 body {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  letter-spacing: 0.03em;
-  line-height: 1.71;
-  color: #757575;
   color: #212121;
-  font-size: 14px;
-  font-weight: 400;
-  background-color: #fff;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style-type: none;
 }
 .header {
   padding-bottom: 30px;
@@ -92,6 +99,7 @@ body {
   width: 1170px;
   margin: 0 auto;
   padding-top: 94px;
+  margin-bottom: 118px;
 }
 .cards-advantages {
   display: flex;
@@ -132,52 +140,33 @@ body {
 .svg-advantages:hover {
   fill: #2196f3;
 }
-
-.activitites {
-  padding: 60px 0px;
-}
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.activities-title {
+.what-we-do-title {
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
-  margin-bottom: 50px;
   font-size: 36px;
-  line-height: 1.14;
-}
-.work-list {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-}
-.work-item {
-  position: relative;
-  flex-basis: ((100% - 60px)/3);
-}
-.work-img {
-  width: 370px;
-  height: 294px;
-}
-.work-text {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
-  font-weight: 700;
-  line-height: 1.14;
+  line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: rgba(47, 48, 58, 0.8);
+  letter-spacing: 0, 03em;
+  color: #212121;
+  margin-bottom: 50px;
 }
+.title {
+  background: rgba(47, 48, 58, 0.8);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  width: 370px;
+  height: 70px;
+}
+.what-we-do-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
 .team {
   background-color: #f5f4fa;
 }
@@ -268,6 +257,7 @@ body {
 .clients {
   text-align: center;
 }
+
 .clients-list {
   display: flex;
   gap: 30px;
@@ -297,4 +287,40 @@ body {
   width: 100%;
   fill: currentColor;
   height: 60px;
+}
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  height: 252px;
+  flex-direction: column;
+  min-width: 1600px;
+  justify-content: center;
+  padding-left: 10%;
+}
+.tel,
+.mail {
+  color: #757575;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.address {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  font-weight: 400;
+}
+.footer-logo {
+  width: 145px;
+  height: 31px;
+  margin-bottom: 20px;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

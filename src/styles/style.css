@@ -43,6 +43,7 @@ li {
 }
 .header-contact li:hover {
   color: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active-header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -409,9 +410,11 @@ textarea#comment:focus {
 }
 .member-media a:hover {
   background-color: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .member-media a:hover svg {
   fill: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .member-media svg {
   fill: #afb1b8;
@@ -445,6 +448,7 @@ textarea#comment:focus {
 .clients-link:focus {
   border: 1px solid #2196f3;
   color: #188ce8;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   display: block;

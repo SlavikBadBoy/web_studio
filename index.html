@@ -23,9 +23,9 @@
           /></a>
         </div>
         <ul class="header-nav-list">
-          <li><a href="index.html">Студія</a></li>
-          <li><a href="portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+          <li><a href="index.html" class="active-header">Студія</a></li>
+          <li><a href="portfolio.html" class="active-header">Портфоліо</a></li>
+          <li><a href="" class="active-header">Контакти</a></li>
         </ul>
         <ul class="header-contact">
           <li><a href="">info@devstudio.com</a></li>
@@ -38,7 +38,75 @@
         <div class="main_home_container">
           <div class="main_home_content">
             <h1 class="home_main_text">Ефективні рішення для вашого бізнесу</h1>
-            <button class="home_main_button">Замовити послугу</button>
+            <button class="home_main_button" data-modal-open>
+              Замовити послугу
+            </button>
+            <div class="backdrop is-hidden" data-backdrop>
+              <div class="modal" data-modal>
+                <button class="button-close" data-modal-close>X</button>
+                <h3 class="modal-title">
+                  Залиште свої дані, ми вам передзвонимо
+                </h3>
+                <form action="#" class="form">
+                  <label for="name" class="label">Ім'я</label>
+                  <div class="form-wrapper">
+                    <svg class="form-svg">
+                      <use href="/src/images/person-black.svg"></use>
+                    </svg>
+                    <input
+                      type="name"
+                      name="user_name"
+                      id="name"
+                      required
+                      class="input"
+                    />
+                  </div>
+                  <label for="tel" class="label">Телефон</label>
+                  <div class="form-wrapper">
+                    <svg class="form-svg">
+                      <use href="/src/images/phone-black.svg"></use>
+                    </svg>
+                    <input
+                      type="tel"
+                      name="user_tel"
+                      id="tel"
+                      required
+                      class="input"
+                    />
+                  </div>
+                  <label for="email" class="label">Пошта</label>
+                  <div class="form-wrapper">
+                    <svg class="form-svg">
+                      <use href="/src/images/email-black.svg"></use>
+                    </svg>
+                    <input
+                      type="email"
+                      name="user_email"
+                      id="email"
+                      required
+                      class="input"
+                    />
+                  </div>
+                  <label for="comment" class="label">Коментар</label>
+                  <textarea
+                    name=""
+                    id="comment"
+                    cols="100%"
+                    rows="100%"
+                  ></textarea>
+                  <div class="check-wrapper">
+                    <input type="checkbox" id="check" name="check" required />
+                    <label for="check" class="check-title"
+                      >Погоджуюся з розсилкою та приймаю
+                      <a href="#" class="active-modal">Умови договору</a></label
+                    >
+                  </div>
+                  <div class="btn-wrapper">
+                    <button type="submit" class="btn-sumbit">Відправити</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -329,5 +397,7 @@
         <a class="mail" href="tel:380961111111">+38 096 111 11 11</a>
       </div>
     </footer>
+    /
+    <script src="/src/js/modal.js"></script>
   </body>
 </html>

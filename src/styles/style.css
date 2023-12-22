@@ -132,6 +132,7 @@ li {
 }
 
 .label {
+  display: flex;
   color: #757575;
   font-size: 12px;
   font-weight: 400;
